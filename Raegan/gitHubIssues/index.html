@@ -8,11 +8,60 @@
 </head>
 
 <body>
-    How many days old are you? Let's find out! Click the Calculate button below to get started.
+    <h1>Convert Years to Days</h1>
+    <p> Let's find out! Click the Calculate button below to get started.</p>
     <div>
         <button onclick="ageInDaysCalc()">Calculate</button>
     </div>
-    <script src="./excercise1.js"></script>
+
+    <h1>Bank Account Deposit and Balance</h1>
+    <p id="initialBalance"></p>
+    <div>
+        <button onclick="enterDepositAmount()">Make a Deposit</button>
+    </div>
+
+    <h1>Item Pricing</h1>
+    <p>Click the Checkout button below to see your purchase total</p>
+    <div>
+        <button onclick="calculatePurchase()">Checkout Now</button>
+    </div>
+    <p id="checkoutMessage"></p>
+    <p id="subtotal"></p>
+    <p id="tax"></p>
+    <p id="grandTotal"></p>
+
+
+    <h1>String Parser</h1>
+    <div>
+        <button onclick="parseStringInput()">Parse String</button>
+    </div>
+    <p id="character1"></p>
+    <p id="character2"></p>
+    <p id="character3"></p>
+    <p id="character4"></p>
+    <p id="character5"></p>
+
+    <h1>Modulus Calculator</h1>
+    <div>
+        <button onclick="calculateRemainder()">Divide 2 numbers</button>
+    </div>
+    <p id="firstNumber"></p>
+    <p id="secondNumber"></p>
+    <p id="remainder"></p>
+
+
+    <h1>Temp Converter</h1>
+    <div>
+        <button onclick="celsiusToFarenheit()">Convert Temp</button>
+    </div>
+    <p id="convertedTemp"></p>
+
+    <script src="./ageConversion.js"></script>
+    <script src="./bankBalance.js"></script>
+    <script src="./itemPricing.js"></script>
+    <script src="./stringParser.js"></script>
+    <script src="./modulusCalculator.js"></script>
+    <script src="./tempCalculator.js"></script>
 </body>
 
 </html>
